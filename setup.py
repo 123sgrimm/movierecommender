@@ -7,9 +7,9 @@ def open_file(fname):
 
 
 setup(
-    name='',
-    version='',
-    author='',
+    name='movierecommender',
+    version='0.0.1',
+    author='Stefan',
     author_email='',
     packages=find_packages(),
     url='',
