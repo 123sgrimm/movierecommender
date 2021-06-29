@@ -3,10 +3,8 @@ Contains various recommondation implementations
 all algorithms return a list of movieids
 """
 
-from movierecommender.utils import movies, ratings
+from movierecommender.utils import movies, ratings, model
 
-with open('data/movie_model.pickle', 'rb') as file:
-    model = pickle.load(file)
 
 
 def recommend_random(liked_items, k=5):

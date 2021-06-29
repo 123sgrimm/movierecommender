@@ -1,0 +1,8 @@
+flask
+pandas
+scikit-learn
+fuzzywuzzy
+numpy
+python-Levenshtein
+gunicorn
+git+git:https://github.com/123sgrimm/movierecommender
