@@ -1,11 +1,13 @@
 from fuzzywuzzy import process
 import pandas as pd
+import os
+import pickle
 
 
 package_dir = os.path.dirname(__file__)
 # put the movieId into the row index!
 movies_path = package_dir + '/data/ml-latest-small/movies.csv'
-movies = pd.read_csv(movies_path, index_col=0))
+movies = pd.read_csv(movies_path, index_col=0)
 # put the movieId into the row index!
 # movies = pd.read_csv('./data/ml-latest-small/movies.csv')
 ratings_path = package_dir + '/data/ml-latest-small/ratings.csv'

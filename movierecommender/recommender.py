@@ -4,6 +4,8 @@ all algorithms return a list of movieids
 """
 
 from movierecommender.utils import movies, ratings, model
+import pandas as pd
+import numpy as np
 
 
 
